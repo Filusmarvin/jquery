@@ -1,0 +1,12 @@
+notes
+
+If you run this in the console it should work.
+
+The $ is letting it know that it is jQuery.
+$('li').on
+.on() just holds the place and gives you back the array of all li's
+
+$('li').on( 'click' , (e) => { console.log()})
+this should give you
+                                                                              either of these will work vvv
+$('ul').on('click' , 'a' , function (e) {$(this).text($this).attr('href')); return false  or e.preventDefault()} )
